@@ -1,0 +1,74 @@
+:root {
+  --ff-secondary: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  --ff-raleway: 'Raleway', sans-serif;
+  --color-gray: #343a40;
+  --color-gray-light: #e1e1e1;
+  --color-white: #ffffff;
+  --color-black: #111111;
+}
+
+html {
+  /* 1REM = 10px */
+  font-size: 62.5%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: var(--ff-raleway);
+  font-size: 1.6rem;
+  line-height: 1.8;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 900;
+  margin: 1rem 0 4rem 0;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 4.8rem;
+}
+
+h2 {
+  font-size: 5.8rem;
+}
+
+h3 {
+  font-size: 5rem;
+}
+
+a,
+ul,
+li {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
